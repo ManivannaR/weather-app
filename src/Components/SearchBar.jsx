@@ -19,7 +19,7 @@ const SearchBar = () => {
   const handleSearch = async () => {
     dispatch(resetSearchResults());
     const response = await fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${input}&limit=5&appid=3a2167babd4a2cec90ebdad06a140b71`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${input}&limit=5&appid=3a2167babd4a2cec90ebdad06a140b71`
     );
     const data = await response.json();
     data.forEach((obj) => {
