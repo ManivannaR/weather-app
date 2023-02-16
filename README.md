@@ -4,7 +4,7 @@ This project was built with [React App](https://reactjs.org/) and styled using [
 
 # How to run APP
 
-In the project directory, you can run:
+In the project directory, open terminal and you can run:
 
 ### `npm install`
 
